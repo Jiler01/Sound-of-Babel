@@ -1,0 +1,1 @@
+Thanks to [Victor Cortez](https://github.com/victor-cortez) for his project [Library-of-Babel-Python-API](https://github.com/victor-cortez/Library-of-Babel-Python-API), that made this afternooon of musical destruction possible !!
