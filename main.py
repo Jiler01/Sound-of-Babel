@@ -107,7 +107,9 @@ def play(title: str, first_page, last_page):
     print()
     print()
     print(
-        f"Playing {compo_infos.title.title()} from the babel library, from page {first_page} to page {last_page}.")
+        f"Playing {compo_infos.title.title()} from the babel library", end="")
+    print(f" from page {first_page} to page {last_page}." if first_page !=
+          last_page else f"on page {first_page}.")
     # Convert string to notes
     composition_notes = string_to_notes(composition_string)
     # Play the composition
